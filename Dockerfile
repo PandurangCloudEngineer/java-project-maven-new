@@ -12,4 +12,4 @@ FROM tomcat:10
 
 COPY --from=builder /app/target/*.war /usr/local/tomcat/webapps/ROOT.war
 
-EXPOSE 8080
+EXPOSE 8585
